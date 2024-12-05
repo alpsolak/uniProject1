@@ -1,0 +1,5 @@
+2024-10-01	12.50	Food	Lunch at a cafe
+2024-10-02	34.00	Transportation	Fuel for Spouse's car
+2024-10-03	47.75	Entertainment	Movie night
+2024-07-02	92.25	Other	Alp's payment
+2012-03-29	312.53	Food	Cake for birthday
