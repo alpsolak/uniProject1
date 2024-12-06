@@ -158,12 +158,12 @@ def budget_alerts(total, budget):
 
 # Main menu function
 def menu():
-    functions = [(add_expenses, []),
-                 (view_expenses, []),
-                 (bar_chart, []),
-                 (search_expenses, []),
-                 (budget_alerts, []),
-                 (exit, [])]
+    functions = [[add_expenses, []],
+                 [view_expenses, []],
+                 [bar_chart, []],
+                 [search_expenses, []],
+                 [budget_alerts, []],
+                 [exit, []]]
     text = ("1. Add Expenses\n"
             "2. View Expenses\n"
             "3. Produce Bar Chart for Expenses\n"
@@ -174,10 +174,10 @@ def menu():
         expenses = load_file(EXPENSES_FILE)
         budget = load_file(BUDGET_FILE)
         total = total_expenses(expenses)
-        functions[1] = (functions[1][0], [expenses])
-        functions[2] = (functions[2][0], [total])
-        functions[3] = (functions[3][0], [expenses])
-        functions[4] = (functions[4][0], [total, budget])
+        functions[1][1] = [expenses]
+        functions[2][1] = [total]
+        functions[3][1] = [expenses]
+        functions[4][1] = [total, budget]
         try:
             option = int(input(text))
             if 0 < option < 7:
