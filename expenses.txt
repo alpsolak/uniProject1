@@ -3,3 +3,6 @@
 2024-10-03	47.75	Entertainment	Movie night
 2024-07-02	92.25	Other	Alp's payment
 2012-03-29	312.53	Food	Cake for birthday
+2024-12-06	81.7	Entertainment	Activity
+2024-12-06	63.4	Education	Initial
+2024-12-07	55.0	Shopping	Some products

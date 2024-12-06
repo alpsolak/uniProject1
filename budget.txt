@@ -1,6 +1,6 @@
-Food	200
-Housing	150
-Transportation	200
+Food	180
+Housing	140
+Transportation	100
 Education	40
 Entertainment	50
 Shopping	60
