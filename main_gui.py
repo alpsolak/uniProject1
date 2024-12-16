@@ -12,7 +12,10 @@ SCALE = 0.3  # Scale for the bar chart
 def load_file(file):
     try:
         with open(file, "r") as f:
-            return [line.strip().split("\t") for line in f.readlines()]
+            result = []
+            for line in f.readlines():
+                result.append(line.strip().split("\t"))
+            return result
     except FileNotFoundError:
         messagebox.showerror("Error", f"File {file} not found.")
         return []
@@ -42,7 +45,7 @@ def add_expenses_window():
         description = description_entry.get()
 
         if not check_date(date):
-            messagebox.showerror("Error", "Invalid date format. Use YYYY-MM-DD.")
+            messagebox.showerror("Error", "Invalid date. Use YYYY-MM-DD.")
             return
         try:
             amount = float(amount)
@@ -104,12 +107,15 @@ def view_expenses_window():
         if selected_category == "All":
             filtered_expenses = expenses
         else:
-            filtered_expenses = [expense for expense in expenses if expense[2] == selected_category]
+            filtered_expenses = []
+            for expense in expenses:
+                if expense[2] == selected_category:
+                    filtered_expenses.append(expense)
 
         for expense in filtered_expenses:
             tree.insert("", "end", values=expense)
 
-    category_var.trace("w", lambda *args: update_treeview())
+    category_var.trace_add("write", lambda *args: update_treeview())
 
     frame = tk.Frame(window)
     frame.pack(fill="both", expand=True, padx=10, pady=10)
@@ -216,9 +222,9 @@ def search_expenses_window():
     def update_treeview():
         for item in tree.get_children():
             tree.delete(item)
-        key = search_entry.get()
+        key = search_entry.get().lower()
         for expense in expenses:
-            if key in expense[3].lower() or key in expense[2].lower():
+            if key in expense[3].lower() or key == expense[2].lower():
                 tree.insert("", "end", values=expense)
     window = tk.Toplevel()
     window.title("Search Expenses")
