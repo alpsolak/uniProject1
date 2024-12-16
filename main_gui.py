@@ -202,7 +202,7 @@ def bar_chart_window():
 
         # Write the category name below the bar
         alex.penup()
-        alex.goto(x_position + bar_width / 2, -220)  # Kategori adının pozisyonu
+        alex.goto(x_position + bar_width / 2, -220)  # Position of category name
         alex.write(category, align="center", font=("Arial", 10, "normal"))
 
         # Write the expense amount on top of the bar
