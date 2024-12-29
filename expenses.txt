@@ -1,0 +1,52 @@
+2024-10-01	120.50	Food	Dinner at restaurant
+2024-10-02	35.00	Housing	Rent payment
+2024-10-03	50.00	Transportation	Taxi ride
+2024-10-04	60.00	Education	Book purchase
+2024-10-05	30.00	Entertainment	Movie night
+2024-10-06	110.00	Shopping	New clothes
+2024-10-07	25.00	Other	Grocery shopping
+2024-10-08	200.00	Food	Family dinner
+2024-10-09	140.00	Housing	Utility bill
+2024-10-10	120.00	Transportation	Fuel for car
+2024-10-11	300.00	Education	Tuition payment
+2024-10-12	50.00	Entertainment	Concert ticket
+2024-10-13	70.00	Shopping	Tech gadget
+2024-10-14	40.00	Other	Medical bill
+2024-10-15	180.00	Food	Catering for event
+2024-10-16	80.00	Housing	Home maintenance
+2024-10-17	75.00	Transportation	Car repair
+2024-10-18	100.00	Education	Course fee
+2024-10-19	250.00	Entertainment	Music festival
+2024-10-20	180.00	Shopping	Kitchen renovation
+2024-10-21	20.00	Other	Taxi fare
+2024-10-22	60.00	Food	Snacks and drinks
+2024-10-23	110.00	Housing	Property tax
+2024-10-24	90.00	Transportation	Bus ticket
+2024-10-25	25.00	Education	Study material
+2024-10-26	20.00	Entertainment	Movie tickets
+2024-10-27	150.00	Shopping	Online purchase
+2024-10-28	90.00	Other	Household items
+2024-10-29	250.00	Food	Fine dining
+2024-10-30	40.00	Housing	Insurance
+2024-10-31	50.00	Transportation	Parking fee
+2024-11-01	60.00	Education	E-learning course
+2024-11-02	200.00	Entertainment	Theater show
+2024-11-03	100.00	Shopping	Shopping spree
+2024-11-04	30.00	Other	Internet bill
+2024-11-05	130.00	Food	Birthday party catering
+2024-11-06	90.00	Housing	Rent payment
+2024-11-07	50.00	Transportation	Gas
+2024-11-08	150.00	Education	Seminar fees
+2024-11-09	80.00	Entertainment	Game night
+2024-11-10	110.00	Shopping	Fashion accessories
+2024-11-11	40.00	Other	Repair services
+2024-11-12	60.00	Food	Dinner with friends
+2024-11-13	220.00	Housing	Mortgage
+2024-11-14	150.00	Transportation	Road trip fuel
+2024-11-15	200.00	Education	Study abroad fees
+2024-11-16	180.00	Entertainment	Arcade gaming
+2024-11-17	300.00	Shopping	Electronics
+2024-11-18	90.00	Other	Travel expenses
+2024-11-19	100.00	Food	Coffee and snacks
+2024-11-20	120.00	Housing	Electricity bill
+2024-11-21	110.00	Transportation	Uber rides
